@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#Menu{
+    background-color: #303030 ;
+    padding: 10%;
+}
+
+#TituloPrincipal{
+    color:#FFFFFF ;
+    margin: 3% 6% 2% 0%;
+    font-size: 50px;
+   
+}
+
+#SubTitulo{
+    color:#FFFFFF;
+}
+
+#textoinfor{
+    background-color: #F9F9F9 ;
+    display: grid;
+    grid-auto-flow: column ;
+    columns: auto;
+    padding: 5%;
+}
+
+.negrito{
+    color: black;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+#Texto{
+    display: grid;
+    grid-auto-flow:column;
+    padding-top: 0px;
+}
+
+#TitulodoTexto{
+    color: black;
+    font-weight: bold;
+    text-align: justify;
+    font-size: 27px;
+    padding-top: 250px;
+    padding-left: 180px;
+}
+
+#TextoPrincipal{
+    text-align: justify;
+    margin-left: 100px;
+    padding-top:5px ;
+    padding-left: 80px;
+    font-size: 15px;
+    line-height: 20px;
+
+}
+
+#Foto{
+    width: 550px;
+    Height: 605px;
+    padding: 100px 0px 100px 100px;
+    
+}
+
+#formulario{
+    background-color: #303030;
+    padding: 5%;
+    padding-bottom: 20%;
+    text-align: center;
+
+}
+#Titulo-form{
+    color: #FFFFFF;
+    margin-bottom: 30px;
+   
+}
+
+input{
+    Width:413px;
+    Height: 50px;
+    background-color: #FFFFFF;
+    color: black;
+    margin-bottom: 35px;
+    font-weight: bolder;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 15px;
+
+}
+
+button{
+    Width:286px;
+    Height:52px;
+    background-color: #C07212;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #000000;
+    color: #5b5656;
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 20px #8f8989;
+}
